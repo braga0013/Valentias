@@ -1,0 +1,128 @@
+body{
+    background-image: url(8bbadba91a3b950b285204165da4eec5.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+header{
+    border-bottom:solid black ;
+}
+
+header h1{
+    text-align: center;
+    letter-spacing: 2rem;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.capitulos{
+    
+    margin-top: 0.2rem;
+    height: 3.2rem;
+    border-bottom:solid ;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.capitulos button{
+    color: rgb(0, 0, 0);
+    width: 7rem;
+    height: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+
+.capitulos button:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+
+main{
+    text-align: center;
+    margin: 0 12%;
+
+
+}
+
+main p{
+    font-size: 1.8rem;
+
+}
+
+.imagem{
+    height: 39.35rem;
+    width: 70rem;
+    border: solid;
+    margin: 0 auto;
+}
+
+.imagem img{
+    width: 100%;
+
+}
+
+@media (max-width: 900px){
+
+    header h1{
+        text-align: center;
+        letter-spacing: 1rem;
+        font-size: 3rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .capitulos{
+    
+        margin-top: 0.2rem;
+        height: 2.4rem;
+        border-bottom:solid ;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .capitulos button{
+        color: rgb(0, 0, 0);
+        width: 7rem;
+        height: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        text-decoration: none;
+        transition: 0.5s;
+        border-radius: 1rem;
+    }
+
+    .capitulos button:hover{
+        transform: scale(1.2);
+        background-color: black;
+        color: white;
+    }
+
+    main{
+        text-align: center;
+        margin: 0;
+    
+    
+    }
+    
+    main p{
+        font-size: 1.6rem;
+    
+    }
+
+
+    .imagem{
+        height: 30rem;
+        width: 100%;
+        border: solid;
+    
+    
+    }
+
+    .imagem img{
+        height: 20%;
+
+    }
+}
